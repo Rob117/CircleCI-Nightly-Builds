@@ -1,4 +1,4 @@
-// Loosely based on: https://github.com/godfreyhobbs/circleci-cron-serverless/blob/master/handler.js
+// Based on: https://github.com/godfreyhobbs/circleci-cron-serverless/blob/master/handler.js
 'use strict';
 var http = require("https");
 
