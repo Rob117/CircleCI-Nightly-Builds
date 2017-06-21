@@ -1,0 +1,12 @@
+# Other Circle.yml code
+
+test:
+  post:
+    - >
+      if [ -n "${RUN_NIGHTLY_BUILD}" ]; then
+        # If you put the script in your scripts folder, the path is ./scripts/<name>
+        ./bundle_update.sh
+        # As many scripts as you want here
+      fi
+
+# More circle CI code
